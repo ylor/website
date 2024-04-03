@@ -27,7 +27,7 @@
 
     font-family: Charter, "Bitstream Charter", "Sitka Text", Cambria, serif;
     font-style: italic;
-    font-weight: bolder;
+    font-weight: bold;
     text-transform: uppercase;
     font-size: small;
   }
