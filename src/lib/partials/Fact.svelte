@@ -5,6 +5,7 @@
 
   const facts = [
     "breath of the wild fanboy",
+    "dark mode enthusiast",
     "grug brained",
     "knows enough to get into trouble, but not necessarily out of it",
     "neon genesis evangelion evangelist",
