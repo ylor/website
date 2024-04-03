@@ -1,30 +1,39 @@
 <script>
-  Array.prototype.random = function () {
-    return this[Math.floor(Math.random() * this.length)];
-  };
+  import random from "../actions/random.js"
 
   const facts = [
     "accepts credit, not blame",
     "breath of the wild fanboy",
+    "charmingly garrulous",
     "dark mode enthusiast",
     "grug brained",
-    "knows enough to get into trouble, but not necessarily out of it",
+    "half-life 3 believer",
+    "killjoy instalocker",
+    "knows enough to be dangerous",
     "neon genesis evangelion evangelist",
     "occasional grass toucher",
   ];
-  const fact = facts.random()
+  const fact = facts.random();
 </script>
 
 <header>
-  <h1>roly reyes</h1>
+  <a href="/">
+    <h1>roly reyes</h1>
+  </a>
   <span>{fact}</span>
 </header>
 
 <style>
+  a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+  }
+
   h1 {
     font-family: system-ui, sans-serif;
     text-transform: uppercase;
   }
+
   span {
     font-family: Charter, "Bitstream Charter", "Sitka Text", Cambria, serif;
     font-style: italic;
